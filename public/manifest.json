@@ -1,0 +1,83 @@
+{
+  "name": "ShopEasy - 8 Minute Grocery Delivery",
+  "short_name": "ShopEasy",
+  "description": "Fresh groceries delivered to your doorstep in 8 minutes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0C831F",
+  "icons": [
+    {
+      "src": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/d032e5ca-78d8-481f-a4aa-2361a2b798e6/generated_images/modern-minimalist-grocery-shopping-app-i-c4f0beb0-20250903084217.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/d032e5ca-78d8-481f-a4aa-2361a2b798e6/generated_images/modern-minimalist-grocery-shopping-app-i-c4f0beb0-20250903084217.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["shopping", "food", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "orientation": "portrait-primary",
+  "lang": "en-US",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Quick Reorder",
+      "short_name": "Reorder",
+      "description": "Reorder your previous items",
+      "url": "/reorder",
+      "icons": [
+        {
+          "src": "/shortcut-reorder.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Search Products",
+      "short_name": "Search",
+      "description": "Search for products",
+      "url": "/search",
+      "icons": [
+        {
+          "src": "/shortcut-search.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Cart",
+      "short_name": "Cart",
+      "description": "View your cart",
+      "url": "/cart",
+      "icons": [
+        {
+          "src": "/shortcut-cart.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
